@@ -1,0 +1,68 @@
+/* homeStyle.css */
+
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+}
+
+.home-container {
+  /* max-width: 800px; */
+  margin: 0 auto;
+  padding: 20px;
+  /* height: 100vh; */
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #3498db;
+  color: #fff;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+header p {
+  font-size: 1.2em;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.feature,
+.about {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 0 10px;
+}
+
+.cta-button button {
+  background-color: #2ecc71;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cta-button button:hover {
+  background-color: #27ae60;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px 0;
+  background-color: #272525;
+}
+
+
